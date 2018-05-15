@@ -1,3 +1,4 @@
+/* Header Section */
 header {
   display: flex;
   align-items: center;
@@ -10,16 +11,6 @@ header {
   font-size: 14px;
   font-weight: bold;
   position: fixed;
-}
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-
-}
-
-a {
-  color: Black;
 }
 
 .logo {
@@ -36,4 +27,59 @@ a {
 
 header nav {
   padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: Black;
+}
+
+/* Main Page */
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px solid purple;
+  margin: 10px;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid purple;
+  margin: 10px;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: 1px solid purple;
+  margin: 10px;
+}
+
+.large div {
+  border: 1px solid blue;
+}
+
+.medium div {
+  border: 1px solid blue;
+}
+
+.small div {
+  border: 1px solid blue;
 }
