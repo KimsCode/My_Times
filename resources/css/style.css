@@ -1,3 +1,10 @@
+/* General Formatting*/
+body {
+  font-family: Georgia;
+  font-weight: 17px;
+  color: black;
+}
+
 /* Header Section */
 header {
   display: flex;
@@ -38,7 +45,7 @@ a {
   color: Black;
 }
 
-/* Main Page */
+/* Main Page Divisions*/
 .container {
   display: flex;
   justify-content: center;
@@ -82,4 +89,28 @@ a {
 
 .small div {
   border: 1px solid blue;
+}
+
+/* Images */
+#phishhead {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+#cats {
+  dispaly: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+#memory {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+#phishhead p {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: White;
 }
